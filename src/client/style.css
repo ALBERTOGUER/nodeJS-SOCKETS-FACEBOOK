@@ -1,0 +1,186 @@
+body{
+  background: #E9EBEE;  
+}
+#userName{
+    width: 400px;
+    height: 23px;
+    border-right: none;
+    border: none;
+    border-radius: 3px 0 0 3px; 
+}
+
+ 
+#navContainer{
+    background: #3B5998;
+    width: 100vw;
+    height: 42px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+    box-sizing: border-box;
+    position:fixed;
+    
+}
+
+#userTitle{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+#divSections{
+  display: flex;
+  background: gray; 
+  width: 100vw;
+  height: 93%;
+  
+}
+#imgFacebook{
+  width: 27px;
+  height: 30px;
+  
+}
+
+#divSearch{
+  display: flex;
+  align-items: center;
+}
+
+#spanFacebook{
+  background: white;
+  width:23px;
+  height: 23px;
+  margin-right: 10px;
+  padding: 0 0 6px 0;
+  box-sizing: border-box;
+  border-radius: 1px;
+}
+
+#Search{
+  width: 15px;
+  height: 15px;
+}
+#sendUserName{
+ box-sizing: border-box;
+ height: 23px;
+ width: 38px;
+ background: #F5F6F7;
+ border: none;
+ border-radius: 0 3px 3px 0; 
+}
+#parragraphe{
+background: #F5F6F7;
+padding: 8 24px 8px 8px;
+font-family: Arial, Helvetica, sans-serif ;
+font-size: 12px;
+color: #4B4F56;
+font-weight: 600;
+margin: 0;
+border-color: #FFFFFF;
+border-style: solid;
+border-width: 1px;
+border-radius: 4px;
+}
+
+#new-state{
+  width: 100%;
+  height: 153px;
+  background: white;
+  border-radius: 4px;
+}
+
+#sectionStates{
+  background: #E9EBEE;
+  width: 36%;
+  height: auto;
+  padding-top: 52px;
+}
+
+#areaContainer{
+  width: 500px;
+  height: 71px;
+  background: white;
+  padding-left: 15px;
+  padding-right: 25px;
+  box-sizing: border-box;
+  
+}
+
+textarea {
+  resize: none;
+  padding: 23px 48px 13px 12px;
+  border: none;
+  width: auto;
+  font-family: Arial, Helvetica, sans-serif ;
+}
+
+.imgUser{
+  width: 40px;
+  height: 40px;
+}
+#divArea{
+  display: flex;
+  align-items: center;
+  padding-right: 15px;
+}
+hr{
+  width: 100%;
+  margin-top: 4px;
+}
+
+#send-state{
+  background: #9CB4D8;
+  width: 100%;
+  border: none;
+
+}
+
+.comment{
+  background-color: white;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-top: 10px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+
+}
+
+
+.up{
+
+  display: inline;
+  margin-left: 12px;
+ 
+}
+
+.userTime{
+  display: flex;
+ 
+}
+
+h4{
+  margin: 0;
+  color: #385898;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif ;
+}
+.span{
+  color: #616770;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif ;
+}
+
+.imgLike{
+  width: 17px;
+  height:  17px;
+}
+
+.like{
+  font-family: Arial, Helvetica, sans-serif ;
+  background: white;
+  border: none;
+}

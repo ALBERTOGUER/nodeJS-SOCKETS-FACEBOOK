@@ -1,0 +1,43 @@
+html
+    head
+      title
+      link(rel="stylesheet", href="style.css")
+      
+    body(style={padding:'0', margin:'0' })
+
+        div#navContainer
+          div#divSearch 
+            span#spanFacebook(style={background: 'white',width:'24px',height: '24px'})        
+              img#imgFacebook(src="https://i.ya-webdesign.com/images/logos-redes-sociales-png-facebook-3.png", alt="", srcset="")     
+            input#userName(type="text",placholder="Buscar")
+            button#sendUserName
+             img#Search(src="https://www.stickpng.com/assets/images/585e4ae1cb11b227491c3393.png", alt="", srcset="")
+          div
+           h4#userTitle User 
+
+
+        div#divSections 
+          
+          section(style={background: '#E9EBEE', width: '19%',height: '100%'})
+
+
+          section#sectionStates
+            div#new-state
+             p#parragraphe Crear publicación
+             div#areaContainer
+                div#divArea
+                 img.imgUser(src="https://growingsmilestx.com/wp-content/uploads/2019/04/206855.png", alt="", srcset="")
+                 textarea#state-text(placeholder ="Que estas pensando?")
+                 
+                hr   
+                button#send-state Publicar
+                
+                        
+            div#states
+
+          section(style={ background: '#E9EBEE',width: '45%',height: '100%'})
+
+
+
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.1/socket.io.js")
+        script(src="./js/main.js")
