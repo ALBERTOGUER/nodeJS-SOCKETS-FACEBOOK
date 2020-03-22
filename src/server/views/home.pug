@@ -4,12 +4,12 @@ html
       link(rel="stylesheet", href="style.css")
       
     body(style={padding:'0', margin:'0' })
-
+      div#wall
         div#navContainer
           div#divSearch 
             span#spanFacebook(style={background: 'white',width:'24px',height: '24px'})        
               img#imgFacebook(src="https://i.ya-webdesign.com/images/logos-redes-sociales-png-facebook-3.png", alt="", srcset="")     
-            input#userName(type="text",placholder="Buscar")
+            input#find(type="text",placholder="Buscar")
             button#sendUserName
              img#Search(src="https://www.stickpng.com/assets/images/585e4ae1cb11b227491c3393.png", alt="", srcset="")
           div
@@ -34,8 +34,35 @@ html
                 
                         
             div#states
+          section#SectionactiveUserStates
+            div#activeUserStates
 
-          section(style={ background: '#E9EBEE',width: '45%',height: '100%'})
+      div#login
+        div#navLogin
+          div#containerLogin         
+            div
+             img#imgFace(src="https://portalhoy.com/wp-content/uploads/2015/08/2000px-Facebook.svg_.png", alt="", srcset="") 
+
+            div#containerInputs
+              div#input1
+               label.labelInput(for="userName") Usuario
+               input#userName
+              
+              div#input2
+               label.labelInput(for="password") Contraseña
+               input#password(type="password")
+              button#do-login Iniciar sesión     
+        div#divRegister
+         h1 Crea una cuenta
+         h3 Es rápido y fácil
+         div
+           input.inputRegister#inputNewUser(type="text")(placeholder="Usuario")
+         div
+           input.inputRegister#inputNewPassword(type="password")(placeholder="Contraseña")
+         div
+           button#buttonRegister Registrarte
+         div#message
+          
 
 
 
